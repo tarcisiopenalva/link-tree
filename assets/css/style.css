@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #737171;
+    color: #fff;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 80px;
+        
+}
+
+.profilePhoto {
+    width: 120px;
+    border-radius: 100%;
+    border: 1px solid #fff;
+}
