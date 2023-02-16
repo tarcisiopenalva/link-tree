@@ -19,4 +19,9 @@ body {
     width: 120px;
     border-radius: 100%;
     border: 1px solid #fff;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 15px;
 }
