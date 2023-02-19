@@ -3,9 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+html,body {
+    height: 100%;
+}
 
 body {
-    background-color: #364dcc;
+    background: #6242c4;
     font-family: 'Raleway', sans-serif;
     color: #fff;
 }
@@ -45,7 +48,7 @@ h2 {
 }
 
 .social img {
-    width: 40px;
+    width: 35px;
     margin-bottom: 20px;
 }
 
@@ -63,18 +66,19 @@ h2 {
     border-radius: 5px;
     font-size: 20px;
     list-style: none;
-    color: #364dcc;   
+    color: #6242c4;   
 }
 
 .link-list li a span {
    display: block;
    margin-top: 10px;
    font-size: 15px;
-   color: hsl(0, 0%, 44%);
+   color: #707070;
 }
 
 .footer {
     text-align: center;
     font-size: 12px;
     font-weight: 100;
+    margin-top: 50px;
 }
