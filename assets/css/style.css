@@ -5,33 +5,35 @@
 }
 
 body {
-    background: #312fa5;
-    background-position: cover;
+    background-color: #364dcc;
+    font-family: 'Raleway', sans-serif;
     color: #fff;
 }
 
 .profile {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
         
 }
 
 .avatar {
-    width: 110px;
-    border-radius: 100%;
-    border: 2px solid #fff;
-    margin-bottom: 30px;
-    box-shadow: 0 0 20px;
+    width: 80px;
+    border-radius: 100px;;
+    border: 2px solid #ffffff;
+    margin-bottom: 25px;
+    box-shadow: 0 0 20px #ffffff;
 }
 
 h1 {
-    font-size: 25px;
-    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 100;
+    font-family: 'Architects Daughter';
+    margin-bottom: 5px;
 }
 
 h2 {
-    font-family: sans-serif;
-    font-size: 25px;
+    font-size: 16px;
+    font-weight: 100;
     margin-bottom: 20px;
 }
 
@@ -44,27 +46,35 @@ h2 {
 
 .social img {
     width: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .link-list li {
-    height: 80px;
-    background: #fff;
-    margin: 0 10px 15px 10px;
-    padding: 20px;
-    border-radius: 20px;
+    margin: 10px 20px;
+    list-style: none;
+
+}
+.link-list li a {
+    display: block;
+    background: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 5px;
     font-size: 20px;
     list-style: none;
-    color: #000;    
+    color: #364dcc;   
 }
 
-.link-list li span {
-    font-size: 25px;
-    font-weight: 800;
+.link-list li a span {
+   display: block;
+   margin-top: 10px;
+   font-size: 15px;
+   color: hsl(0, 0%, 44%);
 }
 
 .footer {
     text-align: center;
     font-size: 12px;
-    margin-top: 30px;
+    font-weight: 100;
 }
