@@ -39,25 +39,23 @@ h2 {
     font-weight: 100;
     margin-bottom: 20px;
 }
-
-.social {
+.social ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
     margin-right: 20px;
 }
-
 .social img {
     width: 35px;
     margin-bottom: 20px;
 }
 
-.link-list li {
+main section .link-list li {
     margin: 10px 20px;
     list-style: none;
 
 }
-.link-list li a {
+main section .link-list li a {
     display: block;
     background: #ffffff;
     text-decoration: none;
@@ -69,7 +67,7 @@ h2 {
     color: #6242c4;   
 }
 
-.link-list li a span {
+main section .link-list li a span {
    display: block;
    margin-top: 10px;
    font-size: 15px;
